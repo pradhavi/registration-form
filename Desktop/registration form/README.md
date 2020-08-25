@@ -6,7 +6,7 @@
 
 This application is develop in python version 3.8.5 along with GUI library called TKinter, in visual studio
 
-#Buid and setup
+Buid and setup
 
 Install python version 3 and execute the application in command line 
 
