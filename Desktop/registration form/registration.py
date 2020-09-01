@@ -24,7 +24,7 @@ def database():
    with conn:
       cursor=conn.cursor()
    cursor.execute('CREATE TABLE IF NOT EXISTS PARTICIPANTS (Fullname TEXT,Email TEXT,Gender TEXT,country TEXT,Programming TEXT,Participants INT)')
-   cursor.execute('INSERT INTO Student (FullName,Email,Gender,country,Programming,Participents) VALUES(?,?,?,?,?,?)',(name1,email,gender,country,prog,par,))
+   cursor.execute('INSERT INTO PARTICIPANTS (FullName,Email,Gender,country,Programming,Participants) VALUES(?,?,?,?,?,?)',(name1,email,gender,country,prog,par,))
    conn.commit()
 
 
